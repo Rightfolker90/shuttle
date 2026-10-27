@@ -1,3 +1,9 @@
+<% if (page === "index") { %>
+<%- include("personal") %>
+<% } else { %>
+<% if (page === "index") { %>
+<%- include("personal") %>
+<% } else { %>
 <!DOCTYPE html>
 <html>
 
@@ -47,3 +53,6 @@
 	<%- include(page); %>
 </body>
 </html>
+<% } %>
+
+<% } %>
